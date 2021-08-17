@@ -6,10 +6,6 @@ const rollbar = new Rollbar({
     captureUnhandledRejections: true,
 })
 
-
-
-
-
 module.exports = {
     main: (req,res) => {
         rollbar.log('Hello world!')
